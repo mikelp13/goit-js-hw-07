@@ -18,4 +18,3 @@ const itemsArray = ingredients.reduce((acc, item) => {
 const ingredientsListRef = document.querySelector('#ingredients');
  ingredientsListRef.append(...itemsArray);
 
-
