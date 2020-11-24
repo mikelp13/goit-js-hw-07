@@ -1,3 +1,5 @@
+
+
 #gallery {
   display: flex;
   margin-top: 40px;
@@ -10,4 +12,8 @@
 
 .list__item + .list__item {
   margin-left: 20px;
+}
+
+#counter {
+  margin-bottom: 40px;
 }
