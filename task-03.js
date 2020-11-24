@@ -17,7 +17,7 @@ const images = [
 ];
 
 const galleryItems = images.reduce((acc, { url, alt }) => {
-  acc += `<li class="list__item"><img src="${url}" alt="${alt}" width = 425 height = 300></li>`;
+  acc += `<li class="list__item"><img src="${url}" alt="${alt}" width = 320 height = 200></li>`;
   return acc;
 }, '');
 
