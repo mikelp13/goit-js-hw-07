@@ -2,7 +2,7 @@ const inputRef = document.querySelector('#validation-input');
 const totalInputLength = Number(inputRef.getAttribute('data-length'));
 
 
-inputRef.addEventListener('focus', handleInputFocus);
+inputRef.addEventListener('blur', handleInputFocus);
 
 
 function handleInputFocus (event) {
